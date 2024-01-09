@@ -18,6 +18,8 @@ The following **required** functionality is completed:
 The following **optional** features are implemented:
 
 * [X] List anything else that you can get done to improve the app functionality!
+- changed header, body, footer colors, making it look more fun
+- Added footer with copyright message and three social icons 
 
 ## Video Walkthrough
 
@@ -35,6 +37,8 @@ GIF created with ...
 ## Notes
 
 Describe any challenges encountered while building the app.
+- The instructions for the challenges were pretty straightforward. 
+
 
 ## License
 
