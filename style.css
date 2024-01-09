@@ -2,7 +2,9 @@
 
 body {
     font-family: 'Cabin';
-    background-color: #758190;
+    /* background-color: #758190; */
+    background: linear-gradient(to bottom, #3498db, #2ecc71, #e67e22);
+    
 }
 
 #tentacles {
@@ -11,7 +13,7 @@ body {
 
 .header {
     display: flex;
-    background-color: lightblue;
+    background-color: #3fd1af;
     padding: 1%;
     align-items: center;
     margin-left: -10px;
@@ -77,3 +79,36 @@ button {
     margin: 1%;
     border-radius: 7px;
 }
+
+/* footer{
+    background-color: lightblue;
+    position: fixed;
+    bottom: 0;
+    width: 100vw;
+    display: flex;
+    margin: 0px;
+    gap: 20px;
+} */
+
+footer {
+    display: flex;
+    background-color: rgb(203, 218, 107);
+    padding: 1%;
+    align-items: center;
+    justify-content: space-between; /* Add this line to space items */
+    margin: 10px -10px -10px -10px;
+  }
+  
+  footer p {
+    margin: 0; 
+  }
+  
+  .icon-container{
+    display: flex;
+  }
+
+  .icon-container i{
+    margin-right: 20px;
+  }
+
+  
