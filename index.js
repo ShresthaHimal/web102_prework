@@ -113,8 +113,6 @@ function filterUnfundedOnly() {
 
     // use the function we previously created to add the unfunded games to the DOM
     addGamesToPage(gamesNotMetGoals);
-
-
 }
 
 
@@ -161,7 +159,6 @@ allBtn.addEventListener("click", showAllGames);
  * Challenge 6: Add more information at the top of the page about the company.
  * Skills used: template literals, ternary operator
 */
-
 // grab the description container
 const descriptionContainer = document.getElementById("description-container");
 
@@ -174,7 +171,8 @@ const numUnfundedGames = GAMES_JSON.reduce((count, game) => {
 // create a string that explains the number of unfunded games using the ternary operator
 const unfundedGamesString = numUnfundedGames === 0
     ? "All games are fully funded!"
-    : `${numUnfundedGames} game${numUnfundedGames === 1 ? "" : "s"} still need funding.`;
+    : `A total of $${totalRaised} has been raised for ${GAMES_JSON.legth} games, ${numUnfundedGames} 
+    game${numUnfundedGames === 1 ? "" : "s"} remain unfunded. We need your help to fund these amazing games!`;
 
 // create a new DOM element containing the template string and append it to the description container
 const newElement = document.createElement("div");
